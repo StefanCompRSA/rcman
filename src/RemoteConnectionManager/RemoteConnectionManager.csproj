@@ -251,6 +251,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Resource Include="Resources\icons8-folder-16.png" />
     <Resource Include="Resources\Message_16x.png" />
     <Resource Include="Resources\FeedbackBubble_16x.png" />
     <Resource Include="Resources\icons8-virtual-16.png" />

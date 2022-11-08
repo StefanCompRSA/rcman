@@ -44,7 +44,7 @@ namespace RemoteConnectionManager.ViewModels
                 CanExecuteDeleteItemCommand);
 
             ReleasesCommand = new RelayCommand(ExecuteReleasesCommand);
-            FeedbackCommand = new RelayCommand(ExecuteFeedbackCommand);
+            /*FeedbackCommand = new RelayCommand(ExecuteFeedbackCommand);*/
 
             CheckVersion();
         }
@@ -271,12 +271,12 @@ namespace RemoteConnectionManager.ViewModels
             Process.Start(Resources.Releases);
         }
 
-        public RelayCommand FeedbackCommand { get; }
-        public void ExecuteFeedbackCommand ()
+        /*public RelayCommand FeedbackCommand { get; }*/
+       /* public void ExecuteFeedbackCommand ()
         {
             _telemetryService.TrackEvent("Feedback");
             Process.Start(Resources.FeedbackLink);
-        }
+        }*/
 
         private void CollectionChanged(object sender, NotifyCollectionChangedEventArgs e)
         {
